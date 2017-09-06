@@ -1,0 +1,16 @@
+CACHE MANIFEST
+#version1
+CACHE:
+index.html
+other.html
+one.html
+error.html
+me.html
+css/base.css
+css/index.css
+js/index.js
+FALLBACK:
+error.html
+
+NETWORK:
+*

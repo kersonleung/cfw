@@ -1,0 +1,262 @@
+body{
+    background: #ececec;
+    /*position: absolute;*/
+}
+
+.all{
+    /*position: absolute;*/
+    position: relative;
+}
+/*顶部搜索框*/
+.cf_header .cf_topbar{
+    background: #01d3ee;
+    width: 100%;
+    height: 60px;
+}
+.cf_header .cf_topbar .select_city{
+    float: left;
+    border: none;
+    background: #01d3ee;
+    color:#fff;
+    width: 20%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: large;
+    margin-top: 6px;
+}
+.cf_header .cf_topbar .select_search{
+    float: left;
+    height: 40px;
+    width: 70%;
+    margin-top:10px;
+    /*line-height:60px;*/
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.icon_search{
+    position: absolute;
+    left: 28%;
+    top: 18px;
+}
+.icon_search img{
+    width: 65%;
+}
+
+/*顶部*/
+.top_nav{
+    width: 100%;
+    height: 60px;
+    background: #01d3ee;
+}
+.top_nav span{
+    text-align: center;
+    float: left;
+    font-weight: bolder;
+    line-height: 60px;
+    color:#ffffff;
+    width: 10%;
+    height: 23px;
+}
+
+.top_nav>p{
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    left:45%;
+    color:#ffffff;
+}
+
+
+
+/*焦点图*/
+.cf_banner{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.cf_banner ul{
+    width: 400%;
+}
+.cf_banner ul li {
+    padding:20px;
+    float: left;
+    width: 25%;
+}
+.cf_banner ul li img{
+    width: 100%;
+}
+.lunbo{
+    width: 100%;
+}
+.lunbo ul{
+    width:400%;
+}
+.lunbo ul li{
+    width:100%;
+    list-style: none;
+     height:250px;
+    text-align: center;}
+.lunbo ul li:not(:first-child){
+    display: none;}
+
+/*分类*/
+.cj_categories{
+    width: 100%;
+    height: 160px;
+    background: #fff;
+}
+.cj_categories ul{
+    width: 100%;
+}
+.cj_categories>ul>li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding-top:10px;
+}
+.cj_categories ul li img{
+    width: 50%;
+}
+
+
+
+/*任务*/
+.cf_content{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background: #fff;
+}
+.cf_content .cf_ct_header{
+    height: 40px;
+    padding: 10px;
+}
+.cf_content .cf_ct_header span img{
+    width: 20px;
+    float: left;
+    text-align: center;
+    /*line-height: 30px;*/
+    padding-bottom:5px;
+}
+.cf_content .cf_ct_header p{
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+.cf_content .cf_ct img{
+    width: 100%;
+    padding: 10px;
+}
+.cf_ct{
+    width: 100%;
+    height: 270px;
+    border-top:1px solid #e6e6e6;
+}
+.cf_ct_text{
+    height: 100px;
+}
+
+.cf_ct_text .credit img{
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.cf_ct_text .cf_ct_bq{
+    background: #eaeaea;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    color: #666666;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+.cf_ct_text>p{
+    margin-top: 10px;
+    float: left;
+    font-size: 18px;
+    font-weight: bolder;
+    /*margin-left: 50px;*/
+    margin-bottom:10px;
+}
+
+
+.footer-last{
+    width: 100%;
+    height: 60px;
+    /*background-color:red;*/
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.cf_content .cf_ct_price{
+    float: left;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+/*视频*/
+.video{
+    margin-top: 10px;
+    background: #fff;
+    padding-top: 10px;
+}
+
+
+
+/*底部布局*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*iPhone手机内部的tabBar默认高度是49*/
+    height: 50px;
+    background: #fff;
+    border-top: 1px solid #f9f9f9;
+    /*box-shadow: 0 -2px 2px #ccc;*/
+}
+.footer ul{
+    width: 100%;
+    margin-top: 2px;
+}
+.footer ul li{
+    /*position: fixed;*/
+    float: left;
+    width: 25%;
+
+    text-align: center;
+    background-color: #fff;
+    border-right:1px solid #ffffff;
+}
+.footer ul li a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: small;
+}
+
+.footer ul li a img{
+    width: 28%;
+}
+
+.footer ul li a span{
+    display:block;
+    text-align: center;
+    font-size: 12px;
+    color:#ccc;
+}
